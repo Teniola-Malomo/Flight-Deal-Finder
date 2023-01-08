@@ -28,12 +28,6 @@ users_data_manger.add_users(first_name, last_name, email)
 
 print("Success! You're in the club!")
 
-from datetime import datetime, timedelta
-from data_manager import DataManager
-from flight_search import FlightSearch
-from notification_manager import NotificationManager
-
-
 ORIGIN_CITY_IATA = "DUB"
 
 data_manager = DataManager()
