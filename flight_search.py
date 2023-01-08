@@ -12,7 +12,7 @@ class FlightSearch:
             "apikey": TEQUILA_API_KEY
         }
 
-    def get_destination_code(self, city_name):
+    def get_destination_codes(self, city_name):
         location_endpoint = f"{TEQUILA_ENDPOINT}/locations/query"
 
         query = {
